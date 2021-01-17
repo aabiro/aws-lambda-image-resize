@@ -19,6 +19,8 @@ provider:
 package:
   include:
     - "lib/*"
+    - "node_modules/@babel/**"
+    - "node_modules/@jimp/**"
     - "node_modules/jimp/**"
     - "node_modules/busboy/**"
     - "node_modules/uuid/**"
