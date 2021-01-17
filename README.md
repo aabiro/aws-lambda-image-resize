@@ -16,4 +16,4 @@ You can see the `POST` endpoint created once the function is deployed on the ter
 
 # To test run:
 
-`curl -H "Content-type: application/json" -d "{"photoUrl":"<PATH-TO-PHOTO-JPG"}" "<GENERATED ENDPOINT>"`
+`curl -H "Content-type: application/json" -d "{"files":"<PATH-TO-PHOTO-JPG"}" "<GENERATED ENDPOINT>"`
